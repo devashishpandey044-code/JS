@@ -53,3 +53,21 @@ const user=[
 //console.log(Object.values(tinderuser));// fertches all the values of an object
 console.log(Object.entries(tinderuser))//fetches key value pair as arrays
 console.log(tinderuser.hasOwnProperty('isloggedIn'));
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseinstructor:"Hitesh"
+}
+const {courseinstructor:instructor}=course// destructuring the object
+console.log(instructor)
+// arrays also geyt destructured
+//format of json 
+//{
+    //"coursename":"js in hindi",
+   // "price":"999",
+   // "courseinstructor":"Hitesh"
+//}
+
+//json format is same as object format just without name and in json format both key and values are written as string
+// we get api in json format and also get api,s in array of objects format
+//[{},{},{}]
